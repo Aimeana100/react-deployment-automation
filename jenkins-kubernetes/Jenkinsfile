@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/Aimeana100/react-deployment-automation.git'
+        git branch: 'main', url: 'https://github.com/Aimeana100/react-deployment-automation.git'
       }
     }
 
